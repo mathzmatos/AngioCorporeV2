@@ -96,4 +96,16 @@
         font-size: 0.8rem;
     }
 
+    .footer-content .contatoFooter {
+        font-size: 1.5rem;
+    }
+
+    .footer-content .ResponsavelTec {
+        font-size: 0.5rem;
+    }
+
+    .footer-content .ResponsavelTec h1 {
+        margin-left: 25%;
+    }
+
 }
