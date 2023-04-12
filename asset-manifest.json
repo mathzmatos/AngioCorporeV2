@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AngioCorporeV2/static/css/main.8bd03a30.css",
+    "main.js": "/AngioCorporeV2/static/js/main.d14b31eb.js",
+    "static/js/787.6bf5f44f.chunk.js": "/AngioCorporeV2/static/js/787.6bf5f44f.chunk.js",
+    "index.html": "/AngioCorporeV2/index.html",
+    "main.8bd03a30.css.map": "/AngioCorporeV2/static/css/main.8bd03a30.css.map",
+    "main.d14b31eb.js.map": "/AngioCorporeV2/static/js/main.d14b31eb.js.map",
+    "787.6bf5f44f.chunk.js.map": "/AngioCorporeV2/static/js/787.6bf5f44f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bd03a30.css",
+    "static/js/main.d14b31eb.js"
+  ]
+}
