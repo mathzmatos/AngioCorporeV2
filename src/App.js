@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
 import './App.css';
+import Navbar from './Navbar';
+import HeaderBox from './HeaderBox';
+import AgendamentosBox from './AgendamentosBox';
+import EspecialidadesBox from './EspecialidadesBox';
+import ConveniosBox from './ConveniosBox';
+import ExamesBox from './ExamesBox';
+import Footer from './Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div>
+
+      <Navbar />
+
+      <HeaderBox />
+
+      <AgendamentosBox />
+
+      <EspecialidadesBox />
+
+      <ConveniosBox />
+
+      <ExamesBox />
+
+      <Footer />
+    
+
     </div>
-  );
+  )
 }
 
 export default App;

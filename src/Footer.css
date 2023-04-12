@@ -1,0 +1,99 @@
+.footer {
+    background-color: var(--mainColor);
+    width: 100%;
+    
+    
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-content .contatoFooter {
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-content .telefone {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.footer-content .telefone .telefone-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 33.33%;
+}
+
+.footer-content .telefone p {
+    font-weight: 300;
+}
+
+.footer-content .email {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.footer-content .email .email-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 43.33%;
+}
+
+.footer-content .email p {
+    font-weight: 300;
+}
+
+.footer-content .ResponsavelTec {
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.footer-content .ResponsavelTec p {
+    font-weight: 300;
+}
+
+.footer-content .RedeSocial {
+   
+    margin-bottom: 2rem;
+}
+
+.footer-content .RedeSocial .instagram, .facebook {
+    font-size: 3rem;
+    color: white;
+}
+
+.footer-content .RedeSocial .instagram:hover, .facebook:hover {
+    color: #5f1d1d;
+    transition: 0.4s;
+    transform:  scale(1.2);
+}
+
+.footer-content p {
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+
+@media only screen and (max-width: 900px ) {
+    .footer-content .telefone .telefone-icon {
+        margin-left: 43.33%;
+    }
+
+
+    .footer-content p {
+        font-size: 0.8rem;
+    }
+
+}
