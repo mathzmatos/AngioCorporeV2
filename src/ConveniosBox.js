@@ -1,5 +1,6 @@
 import React from 'react';
 import './ConveniosBox.css';
+import IMG3 from './images/img3.png';
 
 
 
@@ -14,7 +15,7 @@ function ConveniosBox() {
         <div className="convenios-content">
 
             <div className="img3">
-                <img src="img3.png"></img>
+                <img src={IMG3}></img>
             </div>
 
             <h4>

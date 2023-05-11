@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
+import LOGO from './images/logo.png';
 
 
 
@@ -15,7 +16,7 @@ function Navbar() {
     return (
         <header>
 
-            <a href="index.html"><img src="logo.png" alt='logo'></img></a>
+            <a href="index.html"><img src={LOGO}></img></a>
 
             <nav ref={navRef}>
 

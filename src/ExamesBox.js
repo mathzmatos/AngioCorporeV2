@@ -1,5 +1,6 @@
 import React from 'react';
 import './ExamesBox.css';
+import IMG4 from './images/img4.png';
 
 
 function ExamesBox() {
@@ -10,7 +11,7 @@ function ExamesBox() {
         <div className="exames-content">
 
             <div className="img4">
-                <img src="img4.png"></img>
+                <img src={IMG4}></img>
             </div>
 
             <h4>

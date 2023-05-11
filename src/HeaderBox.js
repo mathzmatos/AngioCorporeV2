@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeaderBox.css';
+import IMG1 from './images/img1.png';
 
 function HeaderBox() {
 
@@ -9,7 +10,7 @@ function HeaderBox() {
             <div className="content">
 
                 <div className="img1">
-                <img src="img1.png"></img>
+                <img src={IMG1}></img>
                 </div>
 
                 <h1 className="tituloHeader">

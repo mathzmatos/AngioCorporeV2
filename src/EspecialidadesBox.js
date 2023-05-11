@@ -1,5 +1,6 @@
 import React from 'react';
 import './EspecialidadesBox.css';
+import IMG2 from './images/img2.png';
 
 function EspecialidadesBox() {
 
@@ -10,7 +11,7 @@ function EspecialidadesBox() {
         <div className="especialidades-content">
 
             <div className="img2">
-                <img src="img2.png"></img>
+                <img src={IMG2}></img>
             </div>
 
             <h4>

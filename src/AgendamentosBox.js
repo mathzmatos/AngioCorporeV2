@@ -1,5 +1,8 @@
 import React from 'react';
 import './AgendamentosBox.css';
+import LOCATION from './images/location.png';
+import AGENDAMENTO from './images/agendamento.png';
+import RESULTADOS from './images/resultados.png';
 
 
 function AgendamentosBox() {
@@ -11,7 +14,7 @@ function AgendamentosBox() {
                 <div className="content-agendamentos">
 
                     <div className="components-agendamentos">
-                       <a href="#"><img class="location" src="location.png"></img></a> 
+                       <a href="#"><img class="location" src={LOCATION}></img></a> 
 
                         <a href="#"><h3>Unidades</h3></a>
 
@@ -21,7 +24,7 @@ function AgendamentosBox() {
                     </div>
 
                     <div className="components-agendamentos">
-                        <a href="#"><img class="agendamento" src="agendamento.png"></img></a>
+                        <a href="#"><img class="agendamento" src={AGENDAMENTO}></img></a>
 
                         <a href="#"><h3>Agendamentos</h3></a>
 
@@ -29,7 +32,7 @@ function AgendamentosBox() {
                     </div>
 
                     <div className="components-agendamentos">
-                    <a href="#"><img class="resultados" src="resultados.png"></img></a>
+                    <a href="#"><img class="resultados" src={RESULTADOS}></img></a>
 
                         <a href="#"><h3>Resultados Online</h3></a>
 
